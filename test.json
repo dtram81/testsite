@@ -1,6 +1,6 @@
 {
     "$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentTemplate.json#",
-    "contentVersion": "1.0.0.1",
+    "contentVersion": "1.0.0.2",
     "parameters": {
         "virtualMachines_backendSERVER_name": {
             "defaultValue": "backendSERVER",
@@ -47,7 +47,8 @@
             "name": "[parameters('networkSecurityGroups_backendSERVER_nsg_name')]",
             "location": "[resourceGroup().location]",
             "tags": {
-                "BeardSite": "[resourceGroup().location]"
+                "BeardSite": "[resourceGroup().location]",
+                "testing": "test tag nsg"
             },
             "properties": {
                 "securityRules": [
