@@ -68,7 +68,9 @@
                             "sourceAddressPrefixes": [],
                             "destinationAddressPrefixes": []
                         }
-                        {
+ 
+                    },
+                    {
                         "name": "SSH",
                         "properties": {
                             "protocol": "TCP",
@@ -83,9 +85,9 @@
                             "destinationPortRanges": [],
                             "sourceAddressPrefixes": [],
                             "destinationAddressPrefixes": []
-                        }   
-                        
+                        }
                     }
+                    
                 ]
             }
         },
