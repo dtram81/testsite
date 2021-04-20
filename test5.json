@@ -71,7 +71,7 @@
                      {
                         "name": "SSH",
                         "properties": {
-                            "protocol": "UDP",
+                            "protocol": "TCP",
                             "sourcePortRange": "*",
                             "destinationPortRange": "22",
                             "sourceAddressPrefix": "*",
